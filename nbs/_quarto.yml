@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _docs
+  preview: 
+    port: 3000
+    browser: false
+  render:
+    - birds.ipynb
+    
+format:
+  html:
+    theme: syke.scss
+    toc: true
+    page-layout: full
+    
+website:
+  title: "FINBIF-FIRI species modelling and remote sensing data"
+  description: "Examples for utilizing remotely sensed data for species modelling"
+  twitter-card:
+    creator: "@mayrajeo"
+  open-graph: true
+  reader-mode: true
+  repo-branch: main
+  repo-subdir: nbs
+  repo-url: https://github.com/mayrajeo/finbif-sdm
+  repo-actions: [source]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: https://github.com/mayrajeo/finbif-sdm
+  sidebar:
+    style: "floating"
+    contents:
+      - text: Introduction
+        file: index.ipynb
+      - birds.ipynb
+      - stack-sdm-example
+  page-navigation: true
