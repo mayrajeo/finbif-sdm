@@ -5,7 +5,9 @@ project:
     port: 3000
     browser: false
   render:
+    - index.ipynb
     - birds.ipynb
+    - stac-sdm-example.ipynb
     
 format:
   html:
