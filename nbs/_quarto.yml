@@ -36,5 +36,5 @@ website:
       - text: Introduction
         file: index.ipynb
       - birds.ipynb
-      - stack-sdm-example
+      - stack-sdm-example.ipynb
   page-navigation: true
